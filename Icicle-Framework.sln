@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "IcicleFramework", "IcicleFramework\IcicleFramework.shproj", "{A0CDBD0E-3A41-42B7-9425-A838BC2C7383}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SHMUP-Example", "SHMUP-Example", "{2D2CFE03-EC9F-46B7-8A8A-3EA8622C5E96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHMUP-Example", "SHMUP-Example\SHMUP-Example.csproj", "{578229FA-AA0A-4944-A33A-530B68436D10}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		IcicleFramework\IcicleFramework.projitems*{578229fa-aa0a-4944-a33a-530b68436d10}*SharedItemsImports = 4
+		IcicleFramework\IcicleFramework.projitems*{a0cdbd0e-3a41-42b7-9425-a838bc2c7383}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{578229FA-AA0A-4944-A33A-530B68436D10}.Debug|x86.ActiveCfg = Debug|x86
+		{578229FA-AA0A-4944-A33A-530B68436D10}.Debug|x86.Build.0 = Debug|x86
+		{578229FA-AA0A-4944-A33A-530B68436D10}.Release|x86.ActiveCfg = Release|x86
+		{578229FA-AA0A-4944-A33A-530B68436D10}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{578229FA-AA0A-4944-A33A-530B68436D10} = {2D2CFE03-EC9F-46B7-8A8A-3EA8622C5E96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00911B1C-6171-4983-AD30-490A0C8825EF}
+	EndGlobalSection
+EndGlobal
